@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    .plate{
+        border: 2px solid maroon;
+        height:1000px;
+        width:1000px;
+        /* height:90%;
+        width:90%; */
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .item{
+        width: 100px;
+        height: 100px;
+        border:2px solid green;
+        height:auto;
+        width:auto;
+    }
+</style>
+<body>
+    <h1 >Agenda For the Day </h1>
+    <h1 id="date"></h1>
+    <script> 
+        const d = new Date();
+        document.getElementById("date").innerHTML = d;
+        </script>
+
+        <div class="plate">
+            <div class="item" id="I1"></div>
+            <div class="item" id="I2"></div>
+            <div class="item" id="I3"></div>
+            <div class="item" id="I4"></div>
+        </div>
+</body>
+
+</html>
