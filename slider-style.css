@@ -68,6 +68,10 @@ li {
     scale: 1.3em;
     cursor: pointer;
 }
+.gayatri{
+    /* align-items: center; */
+    text-align: center;
+}
 .box {
     border: 2px solid rgb(224, 19, 19);
     border-radius: 10px;
