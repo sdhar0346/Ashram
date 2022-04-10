@@ -11,6 +11,8 @@ body {
     /* background-color: rgb(236, 37, 11); */
     /* height: 100%; */
     color: rgb(54, 16, 16);
+    align-items: center;
+    text-align: center;
     
 }
 
@@ -69,8 +71,12 @@ li {
     cursor: pointer;
 }
 .gayatri{
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
 }
 .box {
     border: 2px solid rgb(224, 19, 19);
@@ -231,6 +237,8 @@ opacity: 0.9;
     flex-wrap: wrap;
     margin-top: 0;
     /* margin-bottom: 100px; */
+    text-align: center;
+    align-items: center;
 }
 .content h1{
     text-align: center;
