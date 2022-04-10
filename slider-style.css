@@ -2,6 +2,14 @@
     margin:0;
     padding: 0;
     font-family: sans-serif;
+    {
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;  
+    }
 }
 body {
     /* display:flex */
@@ -70,14 +78,7 @@ li {
     scale: 1.3em;
     cursor: pointer;
 }
-.gayatri{
-    align-items: center;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 10px;
-    padding:10px;
-}
+
 .box {
     border: 2px solid rgb(224, 19, 19);
     border-radius: 10px;
@@ -121,9 +122,27 @@ h1 {
     font-size: 50px;
 }
 .big{
-    display: grid;
-    /* flex-direction: row; */
-    grid-template-rows: repeat(2);
+    /* display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+    /* display: grid;
+    /* flex-direction: row; 
+    grid-template-rows: repeat(2); */
+    display:block;
+    align-items: center;
+    } 
+    .gayatri{
+        align-items: center;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: auto;
+        margin: 10px;
+        padding:10px;
+        background-color:bisque;
+        
     }
 .block{
     height: 400px;
