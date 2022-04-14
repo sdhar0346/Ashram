@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
 </head>
-<style>
+<link rel="stylesheet" href="slider-style.css">
+<!-- <style>
     body {
     /* display:flex */
     background-image: url(imgs/bg6.jpg) ;
-    background-color: rgb(54, 16, 190);
+    /* background-color: rgb(54, 16, 190); */
     height: auto;
     font-size: 20px;
     color: rgb(54, 16, 16);
@@ -32,7 +33,11 @@
     text-decoration: solid;
     width: 100%;
 }
- .container {
+#nli2{
+    text-decoration: none;
+    color: yellow;
+}
+ .Ccontainer {
     display: flex;
     /* grid-template-columns: repeat(2, auto); */
     flex-direction: row;
@@ -43,7 +48,7 @@
     width: 90%;
     color:blue;
 }
-.container0{
+.Ccontainer0{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -52,19 +57,19 @@
     width: 90%;
     color: aliceblue;
 }
-.container1 {
+/* .container1 {
     display: grid;
     grid-template-rows: repeat(3, auto);
     color: green;
     justify-content: center;
     text-align: center;
    
-}
-.container2{
+} */
+/* .container2{
     display: grid;
     grid-template-columns: repeat(2, auto) ;
     color:blue;
-}
+} */
 li {
     /* background-color: orangered; */
     margin: 10px 20px;
@@ -83,7 +88,7 @@ li {
     scale: 1.3em;
     cursor: pointer;
 }
-.box {
+.Cbox {
     /* border: 2px solid rgb(224, 19, 19); */
     border-radius: 10px;
     /* margin: 10px;
@@ -93,7 +98,7 @@ li {
     width: 400px;
     /* margin: 100px; */
 }
-.box0 {
+.Cbox0 {
     /* border: 2px solid rgb(224, 19, 19); */
     border-radius: 10px;
     margin: 10px;
@@ -104,38 +109,17 @@ li {
     /* margin-left: 400px; */
     align-self: center;
 }
-#para3 {
-    color: yellow;
-}
-#nli2{
-    text-decoration: none;
-    color: yellow;
-}
-h3{
-    text-align: center;
-}
-.sites{
-    height:400px;
-    width: 48%;
-    display: flexbox;
-    align-items: center;
-    justify-items:normal;
-    flex-direction:row;
-    border: 2px solid orangered;
-    margin:10px;
-    /* background-color: sandybrown; */
-}
-#site1{
-    background-color: sandybrown;
-}
-.photo0{
+
+
+
+.Cphoto0{
     /* border: 2px solid black ; */
     height: 75px;
     width: 75px;
     margin:auto;
     border-radius: 35px;
 }
-.photo{
+.Cphoto{
     /* border: 2px solid black ; */
     height: 75px;
     width: 75px;
@@ -143,33 +127,29 @@ h3{
     margin:auto;
     border-radius: 35px;
 }
-.photo0 img{
+.Cphoto0 img{
     /* border-radius: 25px; */
     height: 75px;
     width: 75px;
 }
-.photo img{
-    /* border-radius: 25px;///////////////// */
+.Cphoto img{
+    /* border-radius: 25px; */
     height: 75px;
     width: 75px;
 }
-#pic1{
-    /* margin:auto; */
-    height: 75px;
-    width: 75px;
-}
-.text0{
+
+#Ctext0{
     border: 2px solid yellow;
     height: 200px;
     border-radius: 10px;
 }
-.text{
+.Ctext{
     border: 2px solid yellow;
     height: 200px;
     border-radius: 10px;
     margin: 5px 5px 5px;
 }
-</style>
+</style> -->
 <body>
     <div class="nav">
 
@@ -182,26 +162,27 @@ h3{
         <li class="nbox" id=nli6><a href="Deities.html">Deities</a></li>
         
     </div>
-    <div class="container0">
-    <div class="box0" id="C0">
-        <div class="photo0" id="pic0">
+    
+    <div class="Ccontainer0">
+    <div class="Cbox0" id="C0">
+        <div class="Cphoto0" id="pic0">
            <img src="imgs/cont3.jpg" alt="">
         </div>
-        <div class="text0" id="text0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reprehenderit et obcaecati voluptate tenetur, repellendus recusandae reiciendis pariatur, omnis exercitationem non, itaque delectus magni dolore veniam incidunt iste accusantium officia doloremque alias temporibus. Temporibus, illo aliquid voluptates ipsum, pariatur earum officia assumenda officiis adipisci quidem vitae asperiores, aspernatur ipsam </div>
+        <div class="Ctext" id="Ctext0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reprehenderit et obcaecati voluptate tenetur, repellendus recusandae reiciendis pariatur, omnis exercitationem non, itaque delectus magni dolore veniam incidunt iste accusantium officia doloremque alias temporibus. Temporibus, illo aliquid voluptates ipsum, pariatur earum officia assumenda officiis adipisci quidem vitae asperiores, aspernatur ipsam </div>
     </div>
 </div>
-    <div class="container">
-        <div class="box" id="C1">
-            <div class="photo" id="pic1">
+    <div class="Ccontainer">
+        <div class="Cbox" id="C1">
+            <div class="Cphoto" id="pic1">
                 <img src="imgs/cont3.jpg" alt="">
             </div>
-            <div class="text" id="text1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae possimus deleniti porro ad itaque dolorem ipsam obcaecati natus maxime. Eos sequi nemo suscipit est, libero ad, quae enim quasi laudantium dolorum ea non. Repellat impedit ratione veniam quibusdam magni molestiae ipsam reprehenderit. Qui autem error fugiat, quas perferendis .</div>
+            <div class="Ctext" id="Ctext1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae possimus deleniti porro ad itaque dolorem ipsam obcaecati natus maxime. Eos sequi nemo suscipit est, libero ad, quae enim quasi laudantium dolorum ea non. Repellat impedit ratione veniam quibusdam magni molestiae ipsam reprehenderit. Qui autem error fugiat, quas perferendis .</div>
         </div>
-        <div class="box" id="C2">
-            <div class="photo" id="pic2">
+        <div class="Cbox" id="C2">
+            <div class="Cphoto" id="pic2">
                 <img src="imgs/cont3.jpg" alt="">
             </div>
-            <div class="text" id="text2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore vel amet illum ab blanditiis soluta tenetur sapiente? Amet debitis nam alias et pariatur error. Hic et accusantium, laboriosam distinctio repudiandae reprehenderit voluptatem maiores error quod eius animi consectetur temporibus quae, at aspernatur .</div>
+            <div class="Ctext" id="Ctext2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore vel amet illum ab blanditiis soluta tenetur sapiente? Amet debitis nam alias et pariatur error. Hic et accusantium, laboriosam distinctio repudiandae reprehenderit voluptatem maiores error quod eius animi consectetur temporibus quae, at aspernatur .</div>
         </div>
     </div>
     </body>
