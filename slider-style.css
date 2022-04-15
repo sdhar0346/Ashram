@@ -78,12 +78,10 @@ li {
     padding: 5px 5px;
     /* margin: auto; */
 }
-
-.nbox:hover {
-    scale: 1.3em;
+.nav li:hover {
+    transform:scale(1.2);
     cursor: pointer;
 }
-
 .box {
     border: 2px solid rgb(224, 19, 19);
     border-radius: 10px;
@@ -96,10 +94,10 @@ li {
     color: yellow;
 }
 
-#nli2 {
+/* #nli2 {
     text-decoration: none;
     color: yellow;
-}
+} */
 
 h3 {
     text-align: center;
@@ -114,7 +112,7 @@ h3 {
     flex-direction: row;
     border: 2px solid orangered;
     margin: 10px;
-    /* background-color: sandybrown; */
+    /* background-color: sandybrown; 
 } */
 
 /* #site1 {
@@ -527,4 +525,21 @@ font-size: 35px;
 #Dpara3 {
     color: yellow;
     color: blue;
+}
+
+/* ------------------------------------style for gallery---------------------------- */
+.gallery{
+    margin:10px 50px ;
+
+}
+.gallery img{
+    width:250px;
+    height:250px;
+    padding: 5px;
+    filter:grayscale(100%);
+    transition:1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1);
 }
