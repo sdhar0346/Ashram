@@ -361,6 +361,13 @@ h1{
 }
 
 /* -------------------------style for associated ----------------*/
+.Garudadri p{
+    font-size: x-large;
+    margin-top: 20px;
+    /* margin:auto; */
+    text-align:start;
+    margin-left: 15px;
+}
 
 .Ocontainer {
     display: grid;
@@ -385,7 +392,7 @@ h1{
 .Osites{
     height:500px;
     width: 95%;
-    /* display: flex; */
+    /* display: block; */
     text-align: center;
     justify-items:normal;
     flex-direction:row;
@@ -407,6 +414,15 @@ font-size: 35px;
 .psite{
     margin-top: 25px;
     color:rgb(8, 2, 2);
+}
+#Abtn{
+    padding:10px;
+    background-color: maroon;
+    border: 2px solid black;
+    color:white;
+    font-size: larger;
+    border-radius: 5px;
+    ;
 }
 
 /* -----------------------style for contact---------------------- */
