@@ -361,6 +361,9 @@ h1{
 }
 
 /* -------------------------style for associated ----------------*/
+.Fcontainer{
+    /* display : none; */
+}
 .Garudadri p{
     font-size: x-large;
     margin-top: 20px;
@@ -422,8 +425,13 @@ font-size: 35px;
     color:white;
     font-size: larger;
     border-radius: 5px;
-    ;
+    margin-bottom: 20px;
 }
+.Obtn{
+    /* position: relative; */
+    margin-bottom: 20px;
+}
+
 
 /* -----------------------style for contact---------------------- */
 
