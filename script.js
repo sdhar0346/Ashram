@@ -30,3 +30,15 @@ function toggleHide1(){
     ft1.style.display = 'none';
    }
 }
+
+function back(){
+    let scont = document.getElementById('scont');
+    let ft1 = document.getElementById('site1f');
+
+
+    scont.style.display !='none';
+
+  
+   ft1.style.display = 'none';
+//    ft2.style.display = 'none';
+   }
