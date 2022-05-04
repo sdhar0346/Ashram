@@ -1,0 +1,95 @@
+  // let p1 = document.getElementById('psite1');
+    // let p2 = document.getElementById('psite2');
+    // let p3 = document.getElementById('psite3');
+    // let p4 = document.getElementById('psite4');
+    // let p5 = document.getElementById('psite5');
+    // let p6 = document.getElementById('psite6');
+    // let p7 = document.getElementById('psite7');
+    // let p8 = document.getElementById('psite8');
+    // let p9 = document.getElementById('psite9');
+    // let p10 = document.getElementById('psite10');
+    // let p11 = document.getElementById('psite11');
+    // let p12 = document.getElementById('psite12');
+    // let p13 = document.getElementById('psite13');
+    // let p14 = document.getElementById('psite14');
+
+    // p1.style.display = 'none';
+        // p2.style.display = 'none';
+        // p3.style.display = 'none';
+        // p4.style.display = 'none';
+        // p5.style.display = 'none';
+        // p6.style.display = 'none';
+        // p7.style.display = 'none';
+        // p8.style.display = 'none';
+        // p9.style.display = 'none';
+        // p10.style.display = 'none';
+        // p11.style.display = 'none';
+        // p12.style.display = 'none';
+        // p13.style.display = 'none';
+        // p14.style.display = 'none';
+
+
+        // p1.style.display = 'block';
+        // p2.style.display = 'block';
+        // p3.style.display = 'block';
+        // p4.style.display = 'block';
+        // p5.style.display = 'block';
+        // p6.style.display = 'block';
+        // p7.style.display = 'block';
+        // p8.style.display = 'block';
+        // p9.style.display = 'block';
+        // p10.style.display = 'block';
+        // p11.style.display = 'block';
+        // p12.style.display = 'block';
+        // p13.style.display = 'block';
+        // p14.style.display = 'none';
+
+        //  let ft3 = document.getElementById('site3f');
+   //  let ft4 = document.getElementById('site4f');
+   //  let ft5 = document.getElementById('site5f');
+   //  let ft6 = document.getElementById('site6f');
+   //  let ft7 = document.getElementById('site7f');
+   //  let ft8 = document.getElementById('site8f');
+   //  let ft9 = document.getElementById('site9f');
+   //  let ft10 = document.getElementById('site10f');
+   //  let ft11 = document.getElementById('site11f');
+   //  let ft12 = document.getElementById('site12f');
+   //  let ft13 = document.getElementById('site13f');
+   //  let ft14 = document.getElementById('site14f');
+
+   if(ft1.style.display !='none'){
+    //     scont.style.display ='none';
+    //     ft1.style.display = 'grid';
+    //     // p1.style.display ='grid';
+    // }
+    // else{
+    //     scont.style.display ='grid';
+    //     ft1.style.display = 'none';
+    //     // p1.style.display ='none';
+    //     // fc.style.display = 'none';
+    // }
+
+    //   ft2.style.display = 'none';
+      //   ft3.style.display = 'none';
+      //   ft4.style.display = 'none';
+      //   ft5.style.display = 'none';
+      //   ft6.style.display = 'none';
+      //   ft7.style.display = 'none';
+      //   ft8.style.display = 'none';
+      //   ft9.style.display = 'none';
+      //   ft10.style.display = 'none';
+      //   ft11.style.display = 'none';
+      //   ft12.style.display = 'none';
+      //   ft13.style.display = 'none';
+      //   ft14.style.display = 'none';
+
+      // if(btn2= true){
+        //    scont.style.display ='none';
+        //    ft2.style.display = 'block';
+        // }
+        // else{
+        //    scont.style.display ='block';
+        //   //  fcont.style.display ='none';
+        //    ft2.style.display = 'none';
+        //   }
+     
