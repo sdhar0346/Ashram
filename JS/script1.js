@@ -255,75 +255,75 @@ function toggleHide14() {
 
 function ffa1(){
   $('#btn1').click(function() {
-  $('#ftext1').load('./texts/os-1.txt');
+  $('#ftext1').load('../texts/os-1.txt');
 })
   }
 function ffa2(){
   $('#btn2').click(function() {
-  $('#ftext2').load('./texts/os-2.txt');
+  $('#ftext2').load('../texts/os-2.txt');
 })
   }
 function ffa3(){
   $('#btn3').click(function() {
-  $('#ftext3').load('./texts/os-3.txt');
+  $('#ftext3').load('../texts/os-3.txt');
 })
   }
 function ffa4(){
   $('#btn4').click(function() {
-  $('#ftext4').load('./texts/os-4.txt');
+  $('#ftext4').load('../texts/os-4.txt');
 })
   }
 function ffa5(){
   $('#btn5').click(function() {
-  $('#ftext5').load('./texts/os-5.txt');
+  $('#ftext5').load('../texts/os-5.txt');
 })
   }
 function ffa6(){
   $('#btn6').click(function() {
-  $('#ftext6').load('./texts/os-6.txt');
+  $('#ftext6').load('../texts/os-6.txt');
 })
   }
 function ffa7(){
   $('#btn7').click(function() {
-  $('#ftext7').load('./texts/os-7.txt');
+  $('#ftext7').load('../texts/os-7.txt');
 })
   }
 function ffa8(){
   $('#btn8').click(function() {
-  $('#ftext8').load('./texts/os-8.txt');
+  $('#ftext8').load('../texts/os-8.txt');
 })
   }
 function ffa9(){
   $('#btn9').click(function() {
-  $('#ftext9').load('./texts/os-9.txt');
+  $('#ftext9').load('../texts/os-9.txt');
 })
   }
 function ffa10(){
   $('#btn10').click(function() {
-  $('#ftext10').load('./texts/os-10.txt');
+  $('#ftext10').load('../texts/os-10.txt');
 })
   }
 function ffa11(){
   $('#btn11').click(function() {
-  $('#ftext11').load('./texts/os-11.txt');
+  $('#ftext11').load('../texts/os-11.txt');
 })
   }
 
   function ffa12(){
   $('#btn12').click(function() {
-  $('#ftext12').load('./texts/os-12.txt');
+  $('#ftext12').load('../texts/os-12.txt');
 })
   }
 
 function ffa13(){
   $('#btn13').click(function() {
-  $('#ftext13').load('./texts/os-13.txt');
+  $('#ftext13').load('../texts/os-13.txt');
 })
   }
 
 function ffa14(){
   $('#btn14').click(function() {
-  $('#ftext14').load('./texts/os-14.txt');
+  $('#ftext14').load('../texts/os-14.txt');
 })
   }
 
