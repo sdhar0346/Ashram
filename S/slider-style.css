@@ -11,9 +11,21 @@
         1px 1px 0 #000; */
 }
 
+.tab1 {
+    tab-size: 2;
+}
+
+.tab2 {
+    tab-size: 4;
+}
+
+.tab4 {
+    tab-size: 8;
+}
+
 body {
     /* display:flex */
-    background-image: url(../imgs/bg8.jpg), url(imgs/knbg.jpg), url(imgs/temple);
+    background-image: url(../imgs/bg8.jpg), url(imgs/knbg.jpg), url(..imgs/);
     /* background-position:center, center;
     background-repeat: no-repeat, repeat;
     opacity: 0.5, 0.1;
@@ -280,21 +292,32 @@ h1 {
 }
 
 .iindex {
-    border: 2px black solid;
+    /* border: 2px black solid; */
     width: 150px;
     height: 145px;
     border-radius: 10px;
 }
 
+.iindex img {
+    width: 150px;
+    height: 145px;
+    border-radius: 15px;
+}
+
 #ganesha {
     float: inline-start;
     border-radius: 10px;
+    width: 150px;
+    height: 145px;
+    filter: invert(1);
 }
 
 #skn {
     margin-right: 0px;
     margin-left: 974px;
     border-radius: 10px;
+    width: 150px;
+    height: 145px;
 }
 
 
@@ -414,9 +437,10 @@ h1 {
 
 /* -------------------------style for associated ----------------*/
 
-.Fcontainer {
-    /* display : none; */
-}
+
+/* .Fcontainer {
+    display : none; 
+} */
 
 .Garudadri p {
     font-size: x-large;
@@ -442,7 +466,7 @@ h1 {
     grid-template-columns: repeat(2, auto);
     color: yellow;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     /* border: 2px solid maroon; */
     border-radius: 10px;
     width: 99%;
