@@ -287,8 +287,8 @@ h1 {
     width: 95%;
     margin: auto auto;
     /* margin-bottom: 0ch; */
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 .iindex {
@@ -305,7 +305,7 @@ h1 {
 }
 
 #ganesha {
-    float: inline-start;
+    float: left;
     border-radius: 10px;
     width: 150px;
     height: 145px;
@@ -314,10 +314,11 @@ h1 {
 
 #skn {
     margin-right: 0px;
-    margin-left: 974px;
+    /* margin-left: 800px; */
     border-radius: 10px;
     width: 150px;
     height: 145px;
+    float: right;
 }
 
 
