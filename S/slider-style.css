@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color: blue;
+    color: white;
     /* color: white;
     text-shadow:
         -1px -1px 0 #000,
@@ -25,7 +25,8 @@
 
 body {
     /* display:flex */
-    background-image: url(../imgs/bg8.jpg), url(imgs/knbg.jpg), url(..imgs/);
+    /* background-image: url(../imgs/bg8.jpg), url(imgs/knbg.jpg), url(..imgs/); */
+    background-image: url(../imgs/GAL/IMG-20220516-WA0048.jpg);
     /* background-position:center, center;
     background-repeat: no-repeat, repeat;
     opacity: 0.5, 0.1;
@@ -405,9 +406,9 @@ button:hover {
     background: gold;
 }
 
-#intro {
-    /* margin-top: 200px; */
-}
+/* #intro {
+    /* margin-top: 200px; 
+} */
 
 
 /* ---------------------style for About------------- */
