@@ -563,6 +563,8 @@ h1 {
     height: 400px;
     width: 90%;
     color: blue;
+    align-items: center;
+    margin: auto auto;
 }
 
 .Ccontainer0 {
@@ -573,6 +575,7 @@ h1 {
     height: 400px;
     width: 90%;
     color: aliceblue;
+    margin: auto auto;
 }
 
 .Cbox {
