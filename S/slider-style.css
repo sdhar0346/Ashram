@@ -26,7 +26,7 @@
 body {
     /* display:flex */
     /* background-image: url(../imgs/bg8.jpg), url(imgs/knbg.jpg), url(..imgs/); */
-    background-image: url(../imgs/GAL/IMG-20220516-WA0048.jpg);
+    background: url('../imgs/GAL/IMG-20220516-WA0049.jpg') no-repeat center center/cover;
     /* background-position:center, center;
     background-repeat: no-repeat, repeat;
     opacity: 0.5, 0.1;
@@ -183,7 +183,8 @@ h1 {
 }
 
 .block {
-    height: 400px;
+    height: 70vh;
+    /* height: 600px; */
     width: 40%;
     /* margin-top: 10px; */
     /* margin: 5px; */
