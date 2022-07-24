@@ -517,8 +517,10 @@ h1 {
 
 @media (max-width:500px) and (min-width:300px) {
     .Ocontainer-1 {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
+        /* display: grid; */
+        /* grid-template-columns: repeat(2, auto); */
+        display:flex;
+        flex-direction: column;
         color: yellow;
         justify-content: center;
         text-align: center;
