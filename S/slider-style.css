@@ -810,15 +810,19 @@ and (min-width : 300px)
 and (max-width : 600px)
 
 {
+    .gallery{
+        margin: auto auto;
+        padding: auto auto;
+    }
     
     .gallery img{
     width: 25vw;
-    height: 15vh;
+    height: 20vh;
     /*padding: 1vw ;*/
     filter:grayscale(100%);
     transition:1s;
     border-radius: 10px;
-    margin-left: 2vw;
+    margin: auto auto;
     }
     .gallery img:hover{
     filter: grayscale(0);
