@@ -1,3 +1,3 @@
 git add .
-git commit -m "changed more button top-margin to auto, gal mob width-25vw h-25vh"
+git commit -m "gal mob width-25vw h-15vh"
 git push --all
