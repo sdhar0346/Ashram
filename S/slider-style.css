@@ -811,7 +811,7 @@ and (max-width : 700px)
 {
     
     .gallery img{
-    width: 45vw;
+    width: 40vw;
     height: 25vh;
     /*padding: 1vw ;*/
     filter:grayscale(100%);
