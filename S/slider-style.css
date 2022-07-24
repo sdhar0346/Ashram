@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+
     /* color: white; */
      color: blue;
     text-shadow:
@@ -9,6 +10,15 @@
         1px -1px 0 #000,
         -1px 1px 0 #000,*/
         1px 1px 0 #FFF; 
+
+    /*color: white;*/
+    color: blue;
+    text-shadow:
+        1px 1px 0 #FFF;
+        /*1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; */
+
 }
 
 .tab1 {
@@ -21,6 +31,20 @@
 
 .tab4 {
     tab-size: 8;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: green;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3vh;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 body {
@@ -51,7 +75,7 @@ body {
     border-radius: 8px;
     text-align: center;
     align-items: center;
-    /* display: flex; */
+    display: inline-block; 
     /* flex-direction: row; */
     height: 50px;
     margin: 20px 0px;
@@ -60,7 +84,7 @@ body {
     /* text-decoration: none; */
     text-decoration: solid;
     width: 100%;
-    display:flex;
+    /* display:flex; */
 }
 
 
@@ -91,6 +115,9 @@ li {
     list-style: none;
     text-align: center;
     justify-content: center;
+    display: inline-block;
+    align-items: center;
+
     
 }
 
@@ -104,6 +131,7 @@ li {
 .nav li:hover {
     transform: scale(1.2);
     cursor: pointer;
+    background-color:rgb(230, 85, 32);
 }
 
 .box {
@@ -448,6 +476,10 @@ h1 {
     display : none; 
 } */
 
+.pno{
+    display:none;
+}
+
 .Garudadri p {
     font-size: x-large;
     margin-top: 20px;
@@ -566,6 +598,7 @@ h1 {
     height: 400px;
     width: 90%;
     color: blue;
+    align-items: center;
     margin: auto auto;
 }
 
@@ -687,12 +720,22 @@ h1 {
     color: yellow;
     color: blue;
 }
+#Dpara4 {
+    color: yellow;
+    color: blue;
+}
+#Dpara5 {
+    color: yellow;
+    color: blue;
+}
 
 
 /* ------------------------------------style for gallery---------------------------- */
 
 .gallery {
     margin: 10px 50px;
+    /* display:flex; */
+    
 }
 
 .gallery img {
@@ -706,4 +749,76 @@ h1 {
 .gallery img:hover {
     filter: grayscale(0);
     transform: scale(1.1);
+}
+ #gal1{
+    height: 95vh;
+    width: 90vw;
+    /* border: solid 2px green;//////// */
+    /* display:flex; */
+    margin-bottom: 4vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+#gal2{
+    height: 95vh;
+    width: 90vw;
+    /* border: solid 2px yellow; */
+    /* display:fl; */
+    margin-top: 4vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+#gal3{
+    height: 95vh;
+    width: 90vw;
+    /* border: solid 2px yellow; */
+    /* display:fl; */
+    margin-top: 2vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+/*--------------------------------------------media query------------------------------------*/
+
+@media screen 
+and (min-width : 300px)
+and (max-width : 600px)
+
+{
+    
+    .gallery img{
+    width: 45vw;
+    height: 25vh;
+    /*padding: 1vw ;*/
+    filter:grayscale(100%);
+    transition:1s;
+    border-radius: 10px;
+    margin-left: 2vw;
+    }
+    .gallery img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1);
+}
+} 
+@media screen 
+and (min-width :600px)
+/* and (max-width : 1240px) */
+{
+.gallery img{
+    /* --i: vw;
+    --iw: calc(i/2);
+    width: var(--iw);
+     height: 45vh; */
+    
+    width: 300px; 
+    height: 300px;
+    /*padding: 5px;*/
+    filter:grayscale(100%);
+    transition:1s;
+    border-radius: 10px;
+    margin-left: 1vw;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1);
+}
 }
