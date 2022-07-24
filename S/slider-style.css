@@ -61,6 +61,7 @@ body {
     color: rgb(54, 16, 16);
     align-items: center;
     text-align: center;
+    
 }
 
 
@@ -863,5 +864,9 @@ and (min-width :600px)
 }
     #more {
         margin-top: auto;
+    }
+    body{
+        
+        height: 100vh;
     }
 }
