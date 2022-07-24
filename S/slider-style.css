@@ -845,4 +845,23 @@ and (min-width :600px)
     filter: grayscale(0);
     transform:scale(1.1);
 }
+#ganesha {
+    float: left;
+    border-radius: 10px;
+    width: 10vw;
+    height: 15vh;
+    filter: invert(1);
+}
+
+#skn {
+    margin-right: 0px;
+    /* margin-left: 800px; */
+    border-radius: 10px;
+    width: 10vw;
+    height: 15vh;
+    float: right;
+}
+    #more {
+        margin-top: auto;
+    }
 }
