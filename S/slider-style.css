@@ -811,7 +811,7 @@ and (max-width : 600px)
 {
     
     .gallery img{
-    width: 40vw;
+    width: 30vw;
     height: 25vh;
     /*padding: 1vw ;*/
     filter:grayscale(100%);
@@ -833,8 +833,8 @@ and (min-width :600px)
     --iw: calc(i/2);
     width: var(--iw);
      height: 45vh; */
-    width: 300px; 
-    height: 300px;
+    width: 250px; 
+    height: 250px;
     /*padding: 5px;*/
     filter:grayscale(100%);
     transition:1s;
