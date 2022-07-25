@@ -491,7 +491,8 @@ h1 {
 }
 
 .full {
-    width: 80ch;
+    /* width: 80ch; */
+    width: 60vw; 
     text-align: center;
     align-items: center;
     margin: auto auto;
@@ -568,6 +569,9 @@ h1 {
 .Obtn {
     /* position: relative; */
     margin-bottom: 20px;
+}
+.obtn{
+    margin-top: auto;
 }
 
 
@@ -840,8 +844,18 @@ and (max-width : 600px)
         margin-top: auto;
     }
 
+    .full {
+        width: 85vw;
+        text-align:justify;
+        align-items: center;
+        margin: auto auto;
+        bleed: bold;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
 } 
-@media screen 
+/* @media screen 
 and (min-width :600px)
 /* and (max-width : 1240px) */
 {
@@ -885,4 +899,4 @@ and (min-width :600px)
         
         height: 100vh;
     } */
-}
+} */
