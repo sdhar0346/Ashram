@@ -810,7 +810,7 @@ and (max-width : 600px)
     filter: grayscale(0);
     transform:scale(1.1);
 }
-    .Ocontainer {
+    #scont {
         /* display: grid; */
         /* grid-template-columns: repeat(2, auto); */
         display:flex;
