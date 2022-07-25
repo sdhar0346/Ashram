@@ -1,3 +1,3 @@
 git add .
-git commit -m "mobile style margin auto*2 padding auto*2"
+git commit -m "mobile style associated single box flex column ocontainer"
 git push --all
