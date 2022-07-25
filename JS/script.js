@@ -4,19 +4,23 @@
    //  let fcont = document.getElementById('Fcontainer');
     let ft1 = document.getElementById('site1f');
     let ft2 = document.getElementById('site2f');
+    let nav = document.getElementsByClassName('nav');
    //  let fc = document.getElementsByClassName('Fcontainer');
     // let p1 = document.getElementById('psite1');
     ft1.style.display = 'none';
    //  ft2.style.display = 'none';
    if(btn1= true){
         scont.style.display ='none';
-        ft1.style.display = 'block';   
+        ft1.style.display = 'block';
+        nav.style.display ='none'
+
    }
    else{
     scont.style.display ='block';
    //  fcont.style.display ='none';
     ft1.style.display = 'none';
     ft2.style.display = 'none';
+    nav.style.display = 'block';
    }
 }
 function load(){
