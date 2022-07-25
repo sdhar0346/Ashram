@@ -1,3 +1,3 @@
 git add .
-git commit -m "mobile style for others commented Osites,  "
+git commit -m "mobile style associated ffixed single site per width,  "
 git push --all
