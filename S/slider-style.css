@@ -528,13 +528,13 @@ h1 {
 .Osites {
     height: 500px;
     width: 95%;
-    /* display: block; */ commented_before
+    /* display: block; */ 
     text-align: center;
     justify-items: normal;
     flex-direction: row;
     border: 2px solid maroon;
     margin: 5px;
-    /* background-color: sandybrown; */commented_before
+    /* background-color: sandybrown; */
     border-radius: 20px;
     padding: 10px;
 }
