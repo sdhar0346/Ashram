@@ -834,6 +834,10 @@ and (max-width : 600px)
     }
     .Osites{
         border-radius: 15px;
+        font-weight: 600;
+    }
+    .obtn{
+        margin-top: auto;
     }
 
 } 
