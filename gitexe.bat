@@ -1,3 +1,3 @@
 git add .
-git commit -m "mobile style associated single box flex column ocontainer"
+git commit -m "mobile style removed body height "
 git push --all
