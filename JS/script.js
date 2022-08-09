@@ -4,7 +4,7 @@
    //  let fcont = document.getElementById('Fcontainer');
     let ft1 = document.getElementById('site1f');
     let ft2 = document.getElementById('site2f');
-    let nav = document.getElementsByClassName('nav');
+   //  let nav = document.getElementsByClassName('nav');
    //  let fc = document.getElementsByClassName('Fcontainer');
     // let p1 = document.getElementById('psite1');
     ft1.style.display = 'none';
@@ -12,7 +12,7 @@
    if(btn1= true){
         scont.style.display ='none';
         ft1.style.display = 'block';
-        nav.style.display ='none'
+      //   nav.style.display ='none'
 
    }
    else{
@@ -20,7 +20,7 @@
    //  fcont.style.display ='none';
     ft1.style.display = 'none';
     ft2.style.display = 'none';
-    nav.style.display = 'block';
+   //  nav.style.display = 'block';
    }
 }
 function load(){
@@ -36,7 +36,14 @@ function back(){
     let C1 = document.getElementById('C1'); //new
    //  let ft2 = document.getElementById('site2f');
    scont.style.display ='grid';
-   // C1.style.display = 'none';
-   ft1.style.display = 'none';
+   C1.style.display = 'none';
+   // ft1.style.display = 'none';
    //  ft2.style.display = 'none';
+   }
+
+
+   let x=0;
+   if (btn1==true){
+      x=1;
+      ft=ftx;
    }

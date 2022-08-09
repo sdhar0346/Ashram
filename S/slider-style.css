@@ -486,11 +486,15 @@ h1 {
 /* .Fcontainer {
     display : none; 
 } */
-
+#act{
+    display:none;
+}
 .pno{
     display:none;
 }
-
+.full h4{
+    align-self: center;
+}
 .Garudadri p {
     font-size: x-large;
     margin-top: 20px;
@@ -525,9 +529,36 @@ h1 {
     align-self: center;
     margin: auto;
     padding: 10px;
+
 }
 
+#site15{
+     display: grid;
+    /*grid-template-columns: repeat(2, auto); */
 
+    color: yellow;
+    justify-content: center;
+    text-align: justify;
+    /* border: 2px solid maroon; */
+    border-radius: 2vw;
+    width: auto;
+    /* width: 80ch; */
+    align-items: center;
+    /* align-self: auto; */
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    padding: 10px;
+    grid-template-columns:repeat(1, auto) ;
+}
+    #site15 .shead{
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #site15 .obtn{
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 /* .Ocontainer {
     display: flex;
@@ -558,6 +589,8 @@ h1 {
 .shead {
     font-size: 35px;
     /* color:blue; */
+    align-self: center;
+    justify-content: center;
 }
 
 .psite {

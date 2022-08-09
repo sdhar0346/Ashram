@@ -6,21 +6,30 @@
   // var ft3 = document.getElementById("site3f");
   // var ft13 = document.getElementById("site13f");
 function toggleHide1() {
+  // let Osites = document.getElementsByClassName("Osites");
   let btn1 = document.getElementById("btn1");
   let scont = document.getElementById("scont");
   let ft1 = document.getElementById("site1f");
-  let fc = document.getElementsByClassName("Fcontainer");
-  // let p1 = document.getElementById('psite1');
-  let p1 = document.getElementById("ftext1");
-  ft1.style.display = "none";
+  // let fc = document.getElementsByClassName("Fcontainer");
+  // let p1 = document.getElementById("ftext1");
+  let ft15 = document.getElementById("site15f");
+  let s15 = document.getElementById("site15");
+  // ft1.style.display = "none";
+  let c1 =document.getElementById("C1");
   if (btn1 = true) {
     scont.style.display = "none";
+    s15.style.display = "none";
     ft1.style.display = "block";
+    // ft15.style.display = "none";
+    // fc.style.display = "none";
+
   } 
   else 
   {
     scont.style.display = "block";
     ft1.style.display = "none";
+    c1.style.display = "none";
+
   }
 }
 
@@ -29,15 +38,21 @@ function toggleHide2() {
   let scont = document.getElementById("scont");
   let ft2 = document.getElementById("site2f");
   let fc = document.getElementsByClassName("Fcontainer");
+  let ft15 = document.getElementById("site15f");
+  let s15 = document.getElementById("site15");
+
   // let p1 = document.getElementById('psite1');
   // let p1 = document.getElementById("ftext1");
-  // ft1.style.display = "none";
   if (btn2 =true) {
     scont.style.display = "none";
     ft2.style.display = "block";
+    ft15.style.display = "none";
+    s15.style.display = "none";
+    
   } 
   else 
   {
+    fc.style.display = "none";
     scont.style.display = "block";
     ft2.style.display = "none";
   }
@@ -47,134 +62,180 @@ function toggleHide3() {
   let scont = document.getElementById("scont");
   let ft3 = document.getElementById("site3f");
   let fc = document.getElementsByClassName("Fcontainer");
-   if (btn3 =true) {
-    scont.style.display = "none";
-    ft3.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft3.style.display = "none";
+  let ft15 = document.getElementById("site15f");
+  let s15 = document.getElementById("site15");
+
+  if (btn3 =true) {
+     ft15.style.display = "none";
+     scont.style.display = "none";
+     ft3.style.display = "block";
+    s15.style.display = "none";
+
+    } 
+    else 
+    {
+      scont.style.display = "block";
+      ft3.style.display = "none";
+    }
   }
-}
-function toggleHide4() {
-  let btn4 = document.getElementById("btn4");
-  let scont = document.getElementById("scont");
-  let ft4 = document.getElementById("site4f");
-  let fc = document.getElementsByClassName("Fcontainer");
-   if (btn4 =true) {
-    scont.style.display = "none";
-    ft4.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft4.style.display = "none";
+  function toggleHide4() {
+    let btn4 = document.getElementById("btn4");
+    let scont = document.getElementById("scont");
+    let ft4 = document.getElementById("site4f");
+    let fc = document.getElementsByClassName("Fcontainer");
+    let ft15 = document.getElementById("site15f");
+    let s15 = document.getElementById("site15");
+
+    if (btn4 =true) {
+     ft15.style.display = "none";
+     scont.style.display = "none";
+     ft4.style.display = "block";
+     s15.style.display = "none";
+
+    } 
+    else 
+    {
+      scont.style.display = "block";
+      ft4.style.display = "none";
+    }
   }
-}
-function toggleHide5() {
-  let btn5 = document.getElementById("btn5");
-  let scont = document.getElementById("scont");
-  let ft5 = document.getElementById("site5f");
-  let fc = document.getElementsByClassName("Fcontainer");
-   if (btn5 =true) {
-    scont.style.display = "none";
-    ft5.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft5.style.display = "none";
+  function toggleHide5() {
+    let btn5 = document.getElementById("btn5");
+    let scont = document.getElementById("scont");
+    let ft5 = document.getElementById("site5f");
+    let fc = document.getElementsByClassName("Fcontainer");
+    let ft15 = document.getElementById("site15f");
+    let s15 = document.getElementById("site15");
+
+    if (btn5 =true) {
+     s15.style.display = "none";
+     ft15.style.display = "none";
+     scont.style.display = "none";
+     ft5.style.display = "block";
+
+    } 
+    else 
+    {
+      scont.style.display = "block";
+      ft5.style.display = "none";
+    }
   }
-}
-function toggleHide6() {
-  let btn6 = document.getElementById("btn6");
-  let scont = document.getElementById("scont");
-  let ft6 = document.getElementById("site6f");
-  let fc = document.getElementsByClassName("Fcontainer");
-   if (btn6 =true) {
-    scont.style.display = "none";
-    ft6.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft6.style.display = "none";
+  function toggleHide6() {
+    let btn6 = document.getElementById("btn6");
+    let scont = document.getElementById("scont");
+    let ft6 = document.getElementById("site6f");
+    let fc = document.getElementsByClassName("Fcontainer");
+    let ft15 = document.getElementById("site15f");
+    let s15 = document.getElementById("site15");
+
+    if (btn6 =true) {
+     s15.style.display = "none";
+     ft15.style.display = "none";
+     scont.style.display = "none";
+     ft6.style.display = "block";
+    } 
+    else 
+    {
+      scont.style.display = "block";
+      ft6.style.display = "none";
+    }
   }
-}
-function toggleHide7() {
-  let btn7 = document.getElementById("btn7");
-  let scont = document.getElementById("scont");
-  let ft7 = document.getElementById("site7f");
-  let fc = document.getElementsByClassName("Fcontainer");
-   if (btn7 =true) {
-    scont.style.display = "none";
-    ft7.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft7.style.display = "none";
+  function toggleHide7() {
+    let btn7 = document.getElementById("btn7");
+    let scont = document.getElementById("scont");
+    let ft7 = document.getElementById("site7f");
+    let fc = document.getElementsByClassName("Fcontainer");
+    let ft15 = document.getElementById("site15f");
+    let s15 = document.getElementById("site15");
+
+    if (btn7 =true) {
+     s15.style.display = "none";
+     ft15.style.display = "none";
+     scont.style.display = "none";
+     ft7.style.display = "block";
+    } 
+    else 
+    {
+      scont.style.display = "block";
+      ft7.style.display = "none";
+    }
   }
-}
-function toggleHide8() {
-  let btn8 = document.getElementById("btn8");
-  let scont = document.getElementById("scont");
-  let ft8 = document.getElementById("site8f");
-  let fc = document.getElementsByClassName("Fcontainer");
-   if (btn8 =true) {
-    scont.style.display = "none";
-    ft8.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft8.style.display = "none";
+  function toggleHide8() {
+    let btn8 = document.getElementById("btn8");
+    let scont = document.getElementById("scont");
+    let ft8 = document.getElementById("site8f");
+    let fc = document.getElementsByClassName("Fcontainer");
+    let ft15 = document.getElementById("site15f");
+    if (btn8 =true) {
+     s15.style.display = "none";
+     ft15.style.display = "none";
+     scont.style.display = "none";
+     ft8.style.display = "block";
+    } 
+    else 
+    {
+      scont.style.display = "block";
+      ft8.style.display = "none";
+    }
   }
-}
-function toggleHide8() {
-  let btn8 = document.getElementById("btn8");
-  let scont = document.getElementById("scont");
-  let ft8 = document.getElementById("site8f");
-  let fc = document.getElementsByClassName("Fcontainer");
-   if (btn8 =true) {
-    scont.style.display = "none";
-    ft8.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft8.style.display = "none";
-  }
-}
-function toggleHide8() {
-  let btn8 = document.getElementById("btn8");
-  let scont = document.getElementById("scont");
-  let ft8 = document.getElementById("site8f");
-  let fc = document.getElementsByClassName("Fcontainer");
-   if (btn8 =true) {
-    scont.style.display = "none";
-    ft8.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft8.style.display = "none";
-  }
-}
-function toggleHide9() {
-  let btn9 = document.getElementById("btn9");
-  let scont = document.getElementById("scont");
-  let ft9 = document.getElementById("site9f");
-  let fc = document.getElementsByClassName("Fcontainer");
-   if (btn9 =true) {
-    scont.style.display = "none";
-    ft9.style.display = "block";
-  } 
-  else 
-  {
-    scont.style.display = "block";
-    ft9.style.display = "none";
+  // function toggleHide8() {
+  //   let btn8 = document.getElementById("btn8");
+  //   let scont = document.getElementById("scont");
+  //   let ft8 = document.getElementById("site8f");
+  //   let fc = document.getElementsByClassName("Fcontainer");
+  //   let ft15 = document.getElementById("site15f");
+  //   let s15 = document.getElementById("site15");
+
+  //   if (btn8 =true) {
+  //    s15.style.display = "none";
+  //    ft15.style.display = "none";
+  //    scont.style.display = "none";
+  //    ft8.style.display = "block";
+  //   } 
+  //   else 
+  //   {
+  //     scont.style.display = "block";
+  //     ft8.style.display = "none";
+  //   }
+  // }
+  // function toggleHide8() {
+  //   let btn8 = document.getElementById("btn8");
+  // let scont = document.getElementById("scont");
+  // let ft8 = document.getElementById("site8f");
+  // let fc = document.getElementsByClassName("Fcontainer");
+  // let ft15 = document.getElementById("site15f");
+  // let s15 = document.getElementById("site15");
+
+  // if (btn8 =true) {
+  //    s15.style.display = "none";
+  //    ft15.style.display = "none";
+  //    scont.style.display = "none";
+  //    ft8.style.display = "block";
+  //   } 
+  //   else 
+  //   {
+  //     scont.style.display = "block";
+  //     ft8.style.display = "none";
+  //   }
+  // }
+  function toggleHide9() {
+    let btn9 = document.getElementById("btn9");
+    let scont = document.getElementById("scont");
+    let ft9 = document.getElementById("site9f");
+    let fc = document.getElementsByClassName("Fcontainer");
+    let ft15 = document.getElementById("site15f");
+  let s15 = document.getElementById("site15");
+
+    if (btn9 =true) {
+      s15.style.display = "none";
+      scont.style.display = "none";
+      ft15.style.display = "none";
+      ft9.style.display = "block";
+    } 
+    else 
+    {
+      scont.style.display = "block";
+      ft9.style.display = "none";
   }
 }
 function toggleHide10() {
@@ -182,11 +243,14 @@ function toggleHide10() {
   let scont = document.getElementById("scont");
   let ft10 = document.getElementById("site10f");
   let fc = document.getElementsByClassName("Fcontainer");
-   if (btn10 =true) {
-    scont.style.display = "none";
-    ft10.style.display = "block";
-  } 
-  else 
+  let ft15 = document.getElementById("site15f");
+  if (btn10 =true) {
+     s15.style.display = "none";
+     ft15.style.display = "none";
+     scont.style.display = "none";
+     ft10.style.display = "block";
+    } 
+    else 
   {
     scont.style.display = "block";
     ft10.style.display = "none";
@@ -197,9 +261,14 @@ function toggleHide11() {
   let scont = document.getElementById("scont");
   let ft11 = document.getElementById("site11f");
   let fc = document.getElementsByClassName("Fcontainer");
+  let ft15 = document.getElementById("site15f");
+  let s15 = document.getElementById("site15");
+
    if (btn11 =true) {
+    s15.style.display = "none";
     scont.style.display = "none";
-    ft10.style.display = "block";
+    ft11.style.display = "block";
+    ft15.style.display = "none";
   } 
   else 
   {
@@ -212,9 +281,14 @@ function toggleHide12() {
   let scont = document.getElementById("scont");
   let ft12 = document.getElementById("site12f");
   let fc = document.getElementsByClassName("Fcontainer");
-   if (btn12 =true) {
+  let ft15 = document.getElementById("site15f");
+  let s15 = document.getElementById("site15");
+
+  if (btn12 =true) {
+    s15.style.display = "none";
     scont.style.display = "none";
     ft12.style.display = "block";
+    ft15.style.display = "none";
   } 
   else 
   {
@@ -227,9 +301,14 @@ function toggleHide13() {
   let scont = document.getElementById("scont");
   let ft13 = document.getElementById("site13f");
   let fc = document.getElementsByClassName("Fcontainer");
+  let ft15 = document.getElementById("site15f");
+  let s15 = document.getElementById("site15");
+
    if (btn13 =true) {
+    s15.style.display = "none";
     scont.style.display = "none";
     ft13.style.display = "block";
+    ft15.style.display = "none";
   } 
   else 
   {
@@ -242,14 +321,82 @@ function toggleHide14() {
   let scont = document.getElementById("scont");
   let ft14 = document.getElementById("site14f");
   let fc = document.getElementsByClassName("Fcontainer");
+  let ft15 = document.getElementById("site15f");
+  let s15 = document.getElementById("site15");
+
    if (btn14 =true) {
+    s15.style.display = "none";
     scont.style.display = "none";
     ft14.style.display = "block";
+    ft15.style.display = "none";
   } 
   else 
   {
     scont.style.display = "block";
     ft14.style.display = "none";
+  }
+}
+function toggleHide16() {
+  let btn16 = document.getElementById("btn15");
+  let scont = document.getElementById("scont");
+  let ft16 = document.getElementById("site15f");
+  let fc = document.getElementsByClassName("Fcontainer");
+  let site15 =document.getElementById("site15");
+  let s15 = document.getElementById("site15");
+
+   if (btn16 =true) {
+    s15.style.display = "none";
+    scont.style.display = "none";
+    site15.style.display = "none";
+    ft16.style.display = "block";
+  } 
+  else 
+  {
+    scont.style.display = "block";
+    site15.style.display = "block";
+    ft16.style.display = "none";
+  }
+}
+function toggleHide17() {
+  let btn17 = document.getElementById("btn17");
+  let scont = document.getElementById("scont");
+  let ft15 = document.getElementById("site15f");
+  let fc = document.getElementsByClassName("Fcontainer");
+  let site15 =document.getElementById("site15");
+  let s15 = document.getElementById("site15");
+
+   if (btn17 =true) {
+    s15.style.display = "none";
+    scont.style.display = "none";
+    site15.style.display = "none";
+    ft17.style.display = "block";
+  } 
+  else 
+  {
+    scont.style.display = "block";
+    site15.style.display = "block";
+    ft17.style.display = "none";
+  }
+}
+function toggleHide15() {
+  let btn15 = document.getElementById("btn15");
+  let scont = document.getElementById("scont");
+  let ft15 = document.getElementById("site15f");
+  let fc = document.getElementsByClassName("Fcontainer");
+  let site15 =document.getElementById("site15");
+  let s15 = document.getElementById("site15");
+
+   if (btn15 =true) {
+    s15.style.display = "none";
+    scont.style.display = "none";
+    site15.style.display = "none";
+    ft15.style.display = "block";
+  } 
+  else 
+  {
+    scont.style.display = "block";
+    site15.style.display = "block";
+    ft15.style.display = "none";
   }
 }
 
@@ -327,10 +474,9 @@ function ffa14(){
 })
   }
 
-
-
 function back() {
   let scont = document.getElementById("scont");
+  // let fcont = document.getElementById("C1");
   let ft1 = document.getElementById("site1f");
   let ft2 = document.getElementById("site2f");
   let ft3 = document.getElementById("site3f");
@@ -345,8 +491,14 @@ function back() {
   let ft12 = document.getElementById("site12f");
   let ft13 = document.getElementById("site13f");
   let ft14 = document.getElementById("site14f");
+  let ft15 = document.getElementById("site15f");
+  let ft16 = document.getElementById("site16f");
+  let ft17 = document.getElementById("site17f");
+  let site15 = document.getElementById("site15");
 
  scont.style.display = "grid";
+ site15.style.display = "grid";
+//  fcont.style.display = "none";
  ft1.style.display = "none";
  ft2.style.display = "none"; 
  ft3.style.display = "none"; 
@@ -361,4 +513,11 @@ function back() {
  ft12.style.display = "none"; 
  ft13.style.display = "none"; 
  ft14.style.display = "none"; 
+ ft15.style.display = "none";
+ ft16.style.display = "none";
+ ft17.style.display = "none";
 }
+
+// function prev{
+//   let m = document.getElementById
+// }
