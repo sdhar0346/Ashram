@@ -385,7 +385,6 @@ function toggleHide17() {
     s15.style.display = "none";
     s18.style.display = "none";
     scont.style.display = "none";
-    site15.style.display = "none";
     ft17.style.display = "block";
   } 
   else 
@@ -398,21 +397,21 @@ function toggleHide17() {
 function toggleHide18() {
   let btn18 = document.getElementById("btn18");
   let scont = document.getElementById("scont");
-  let ft18 = document.getElementById("site18f");;
+  let ft18 = document.getElementById("site18f");
   let s15 =document.getElementById("site15");
-  let s18 = document.getElementById("site16");
+  let s18 = document.getElementById("site18");
 
    if (btn18 =true) {
     s15.style.display = "none";
-    scont.style.display = "none";
     s18.style.display = "none";
+    scont.style.display = "none";
     ft18.style.display = "block";
   } 
   else 
   {
     scont.style.display = "block";
     site15.style.display = "block";
-    ft17.style.display = "none";
+    ft18.style.display = "none";
   }
 }
 function toggleHide15() {
