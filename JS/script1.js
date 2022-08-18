@@ -417,8 +417,9 @@ function toggleHide18() {
 function toggleHide15() {
   let btn15 = document.getElementById("btn15");
   let scont = document.getElementById("scont");
-  let s15 =document.getElementById("site15");
+  let s15 = document.getElementById("site15");
   let s18 = document.getElementById("site18");
+  let ft15 = document.getElementById("site15f");
 
    if (btn15 =true) {
     s15.style.display = "none";
