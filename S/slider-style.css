@@ -50,7 +50,7 @@
 body {
     /* display:flex */
     /* background-image: url(../imgs/bg8.jpg), url(imgs/knbg.jpg), url(..imgs/); */
-    background: url('../imgs/GAL/IMG-20220516-WA0049.jpg') no-repeat center center/cover;
+    background: url('./temple.jpg') no-repeat center center/cover;
     /* background-position:center, center;
     background-repeat: no-repeat, repeat;
     opacity: 0.5, 0.1;
