@@ -1,4 +1,77 @@
-  // let btn1 = document.getElementById("btn1");
+// // var bios= document.getElementsByClassName("bios");
+// // var biom = document.getElementsByClassName("biom");
+// var intros = document.getElementById("intros");
+// var intro1 = document.getElementById("intro1");
+// var introm = document.getElementById("mainintro");
+// var early = document.getElementById("early");
+// var intr = document.getElementById("intro");
+// var guru = document.getElementById("guru");
+// var pen = document.getElementById("penance");
+// var boxl = document.getElementById("bioboxl")
+// var box = document.getElementById("biobox")
+// var big = document.getElementById("big")
+// var introm = document.getElementById("introm")
+// var more = document.getElementById("more")
+// function idisplay(){
+//   // let bios= document.getElementsByClassName("bios");
+//   // let biom= document.getElementsByClassName("biom");
+//   // let intro = document.getElementById("intro");
+// box.style.display = none;
+// boxl.style.display = none;
+// } 
+
+// function imore(){
+//   var box = document.getElementById("biobox");
+//   var boxl = document.getElementById("bioboxl");
+//   var introm = document.getElementById("introm");
+//   var nav = document.getElementById("navbar");
+  
+  
+
+//   function idisplay(){
+//   if (idisplay = true){
+//   // let bios= document.getElementsByClassName("bios");
+//   // let biom= document.getElementsByClassName("biom");
+//   // let intro = document.getElementById("intro");
+// box.style.display = none;
+// boxl.style.display = none;
+// } 
+// else{
+//   // bios.style.display = none;
+//   boxl.style.display = none;
+//   big.style.display = none;
+//   introm.style.display = none;
+//   box.style.display = block;
+// }
+// }
+
+// function intro(){
+//   var boxl = document.getElementById("bioboxl")
+//   var box = document.getElementById("biobox")
+//   var big = document.getElementById("big")
+//   var introm = document.getElementById("introm")
+//   intr.style.display = block;
+//   introm.style.display = none;
+//   early.style.display = none;
+//   guru.style.display = none;
+//   pen.style.display = none;
+//   box.style.display = none;
+// }
+
+// function toggleHideimore(){
+//   if(more=true){
+//   boxl.style.display = none;
+//   big.style.display = none;
+//   introm.style.display = none;
+//   box.style.display = block;
+//   }
+//   else{
+//     box.style.display = none;
+//     boxl.style.display = none;
+//   }
+// }
+
+// let btn1 = document.getElementById("btn1");
   let scont = document.getElementById("scont");
   let ft1 = document.getElementById("site1f");
   let ft15 = document.getElementById("site15");
