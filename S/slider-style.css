@@ -69,6 +69,7 @@ body {
     font-style: italic;
     margin-top: 25vh;
     margin-bottom: 25vw;
+    height:50vh;
 }
 /* ------------------for navigation bar---------------- */
 
@@ -206,7 +207,7 @@ h1 {
     align-items: center;
 }
 
-.gayatri {
+.gayatri h2 {
     align-items: center;
     text-align: center;
     border: 2px solid black;
@@ -364,7 +365,63 @@ h1 {
     height: 145px;
     float: right;
 }
+.biom {
+    /* width: 80ch; */
+    width: 45vw; 
+    /* text-align: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    /* flex-direction: row; */
+    margin: auto auto;
+    bleed: bold;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 5vw;
+    margin-right: 2vw;
+}
 
+.biob {
+    /* width: 80ch; */
+    width: 45vw; 
+    /* height:500px; */
+    /* text-align: center;
+    align-items: center; */
+    /* display:flex;
+    flex-direction: row; */
+    margin: 10px auto;
+    bleed: bold;
+    font-size: 20px;
+    font-weight: 100;
+    border: 2px solid maroon;
+    border-radius: 20px;
+
+}
+.bios{
+  /* width: 80ch; */
+  padding-top: 50px;
+  width: 45vw; 
+  height:250px;
+  /* text-align: center;
+  align-items: center; */
+  display:grid;
+  grid-template-columns: repeat(2, auto);
+  flex-direction: row;
+  margin: 10px auto;
+  bleed: bold;
+  font-size: 20px;
+  font-weight: 100;
+  border: 2px solid maroon;
+  border-radius: 20px;
+
+}
+.bios h3{
+    
+    margin:auto auto;
+    
+    align-self: center;
+    align-items: center;
+}
 
 /* #m-icon1{
     height:50px;
@@ -394,6 +451,17 @@ h1 {
     /* margin-bottom: 100px; */
     text-align: center;
     align-items: center;
+}
+
+#biobox{
+    width:75vw;
+    display:grid;
+    grid-template-columns:repeat(2, auto) ;
+    align-items: center;
+    
+}
+#biobox h3{
+    align-self: center;
 }
 
 .content h1 {
@@ -433,6 +501,22 @@ button {
     font-style: italic;
     font-size: 15px;
 }
+.buttoni {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: auto auto;
+    /* margin-top: 7px; */
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    background-color: gold;
+    color: blue;
+    cursor: pointer;
+    transition: background 1s;
+    font-style: italic;
+    font-size: 15px;
+}
 
 button:hover {
     background-color: transparent;
@@ -452,7 +536,10 @@ button:hover {
 /* #intro {
     /* margin-top: 200px; 
 } */
-
+.buttoni{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* ---------------------style for About------------- */
 
@@ -466,12 +553,13 @@ button:hover {
 }
 
 
-/* .container{
+.Acontainer{
+    height: 30vh;
     display: flex;
     flex-direction: column;
     border: maroon;
     border-radius: 10px;
-} */
+}
 
 h1 {
     justify-content: center;
@@ -648,7 +736,7 @@ h1 {
     align-self: center;
 }
 #site18f p{
-styli: none;
+font-style: none;
 }
 
 /* -----------------------style for contact---------------------- */
@@ -983,4 +1071,9 @@ and (min-width :600px)
         
         height: 100vh;
     } 
+} */
+
+/* ----------------------------------------style for note---------------------------------- */
+/* .notifications{
+    height:70vh;
 } */
