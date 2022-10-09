@@ -1,0 +1,1079 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+    /* color: white; */
+     color: blue;
+    text-shadow:
+       /* -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,*/
+        1px 1px 0 #FFF; 
+
+    /*color: white;*/
+    color: blue;
+    text-shadow:
+        1px 1px 0 #FFF;
+        /*1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; */
+
+}
+
+.tab1 {
+    tab-size: 2;
+}
+
+.tab2 {
+    tab-size: 4;
+}
+
+.tab4 {
+    tab-size: 8;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: green;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3vh;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+body {
+    /* display:flex */
+    /* background-image: url(../imgs/bg8.jpg), url(imgs/knbg.jpg), url(..imgs/); */
+    background: url('../imgs/GAL/IMG-20220516-WA0049.jpg') no-repeat center center/cover;
+    /* background-position:center, center;
+    background-repeat: no-repeat, repeat;
+    opacity: 0.5, 0.1;
+    z-index: 1; */
+    /* background-color: rgb(38, 15, 243); */
+    /* background-color: rgb(236, 37, 11); */
+    /* height: 100%; */
+    color: rgb(54, 16, 16);
+    align-items: center;
+    text-align: center;
+    
+}
+
+.notifications{
+    font-size: 5vh;
+    font-style: italic;
+    margin-top: 25vh;
+    margin-bottom: 25vw;
+    height:50vh;
+}
+/* ------------------for navigation bar---------------- */
+
+
+/* from html- for this- native page-  */
+
+.nav {
+    /* background-color: orange; */
+    /* border: 2px solid yellow; */
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    display: inline-block; 
+    /* flex-direction: row; */
+    height: 50px;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-style: bold;
+    /* text-decoration: none; */
+    text-decoration: solid;
+    width: 100%;
+    /* display:flex; */
+}
+
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    color: yellow;
+    justify-content: center;
+    text-align: center;
+}
+
+.container1 {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    color: yellow;
+    justify-content: center;
+    text-align: center;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+} */
+
+li {
+    /* background-color: orangered; */
+    margin: 10px 20px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+
+    
+}
+
+.nbox {
+    /* border: 2px solid orangered; */
+    border-radius: 5px;
+    padding: 5px 5px;
+    /* margin: auto; */
+}
+
+.nav li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color:rgb(230, 85, 32);
+}
+
+.box {
+    border: 2px solid rgb(224, 19, 19);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#para3 {
+    color: yellow;
+}
+
+
+/* #nli2 {
+    text-decoration: none;
+    color: yellow;
+} */
+
+h3 {
+    text-align: center;
+}
+
+
+/* .sites {
+    height: 400px;
+    width: 48%;
+    display: flexbox;
+    align-items: center;
+    justify-items: normal;
+    flex-direction: row;
+    border: 2px solid orangered;
+    margin: 10px;
+    /* background-color: sandybrown; 
+} */
+
+
+/* #site1 {
+    background-color: sandybrown;
+} */
+
+p {
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+    /* font-size: 50px; */
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.big {
+    /* display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    /* display: grid;
+    /* flex-direction: row; 
+    grid-template-rows: repeat(2); */
+    margin-top: -345px;
+    display: block;
+    align-items: center;
+}
+
+.gayatri h2 {
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 2vh;
+    /* margin: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: bisque;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:50vw;
+    display: block;
+    align-self: auto;
+}
+
+.block {
+    height: 70vh;
+    /* height: 600px; */
+    width: 40%;
+    /* margin-top: 10px; */
+    /* margin: 5px; */
+    /* border: 2px solid burlywood; */
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+
+/* #intro {
+    margin-top: 10px;
+} */
+
+
+/* styling for slider starts */
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /* display: block; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.slider {
+    width: 50%;
+    /* height:500px; */
+    height: 90vh;
+    /* position: absolute; */
+    position: relative;
+    align-items: center;
+    top: 0;
+    /* position: static;
+    /* margin-left: 400px; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: auto auto; */
+    /* visibility: ; */
+}
+
+#slideimg {
+    height: 70%;
+    /* width: 800px;  */
+    width: 50%;
+    /* margin-left: 200px; */
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0%;
+    position: fixed;
+    /* position: static;// */
+    opacity: 0.6;
+    border-radius: 15px;
+}
+
+#slideimg :hover {
+    opacity: 0.9;
+}
+
+.overlay {
+    width: 100%;
+    height: 60vh;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: 15px 5px;
+    position: fixed;
+}
+
+#navimg {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icons {
+    cursor: pointer;
+    flex: 1;
+    align-items: center;
+    text-align: right;
+}
+
+.menu-icons img {
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+
+.imgs {
+    /* border: 2px black solid; */
+    border-radius: 10px;
+    height: 150px;
+    width: 95%;
+    margin: auto auto;
+    /* margin-bottom: 0ch; */
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.iindex {
+    /* border: 2px black solid; */
+    width: 150px;
+    height: 145px;
+    border-radius: 10px;
+}
+
+.iindex img {
+    width: 150px;
+    height: 145px;
+    border-radius: 15px;
+}
+
+#ganesha {
+    float: left;
+    border-radius: 10px;
+    width: 150px;
+    height: 145px;
+    filter: invert(0);
+}
+
+#skn {
+    margin-right: 0px;
+    /* margin-left: 800px; */
+    border-radius: 10px;
+    width: 150px;
+    height: 145px;
+    float: right;
+}
+.biom {
+    /* width: 80ch; */
+    width: 45vw; 
+    /* text-align: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    /* flex-direction: row; */
+    margin: auto auto;
+    bleed: bold;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 5vw;
+    margin-right: 2vw;
+}
+
+.biob {
+    /* width: 80ch; */
+    width: 45vw; 
+    /* height:500px; */
+    /* text-align: center;
+    align-items: center; */
+    /* display:flex;
+    flex-direction: row; */
+    margin: 10px auto;
+    bleed: bold;
+    font-size: 20px;
+    font-weight: 100;
+    border: 2px solid maroon;
+    border-radius: 20px;
+
+}
+.bios{
+  /* width: 80ch; */
+  padding-top: 50px;
+  width: 45vw; 
+  height:250px;
+  /* text-align: center;
+  align-items: center; */
+  display:grid;
+  grid-template-columns: repeat(2, auto);
+  flex-direction: row;
+  margin: 10px auto;
+  bleed: bold;
+  font-size: 20px;
+  font-weight: 100;
+  border: 2px solid maroon;
+  border-radius: 20px;
+
+}
+.bios h3{
+    
+    margin:auto auto;
+    
+    align-self: center;
+    align-items: center;
+}
+
+/* #m-icon1{
+    height:50px;
+    width:50px;
+    cursor:pointer;
+}
+#m-icon2{
+    height:50px;
+    width:50px;
+    cursor:pointer;
+}
+#m-icon3{
+    height:50px;
+    width:50px;
+    cursor:pointer;
+} */
+
+.block {
+    width: 70vw;
+    margin: auto;
+}
+
+.big {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    /* margin-bottom: 100px; */
+    text-align: center;
+    align-items: center;
+}
+
+#biobox{
+    width:75vw;
+    display:grid;
+    grid-template-columns:repeat(2, auto) ;
+    align-items: center;
+    
+}
+#biobox h3{
+    align-self: center;
+}
+
+.content h1 {
+    text-align: center;
+    margin-right: 15px;
+    font-size: 45px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+content h3 {
+    width: 80%;
+    margin: 20px auto 100px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.content {
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 700px;
+    margin-left: 700px;
+    border-radius: 10px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 100px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    background-color: gold;
+    color: blue;
+    cursor: pointer;
+    transition: background 1s;
+    font-style: italic;
+    font-size: 15px;
+}
+.buttoni {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: auto auto;
+    /* margin-top: 7px; */
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    background-color: gold;
+    color: blue;
+    cursor: pointer;
+    transition: background 1s;
+    font-style: italic;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid goldenrod;
+}
+
+.btn-2 {
+    border: 2px solid goldenrod;
+    background: transparent;
+}
+
+.btn-2:hover {
+    border: 2px solid gold;
+    background: gold;
+}
+
+/* #intro {
+    /* margin-top: 200px; 
+} */
+.buttoni{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------------------style for About------------- */
+
+.Abox {
+    /* color: rebeccapurple; */
+    /* background-color: rgb(240, 179, 171); */
+    border: 2px solid maroon;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 5px;
+}
+
+
+.Acontainer{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    border: maroon;
+    border-radius: 10px;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+/* -------------------------style for associated ----------------*/
+
+
+/* .Fcontainer {
+    display : none; 
+} */
+#act{
+    display:none;
+}
+.pno{
+    display:none;
+}
+.full h4{
+    align-self: center;
+}
+.Garudadri p {
+    font-size: x-large;
+    margin-top: 20px;
+    /* margin:auto; */
+    text-align: start;
+    margin-left: 15px;
+    width: 80ch;
+}
+
+.full {
+    /* width: 80ch; */
+    width: 60vw; 
+    text-align: center;
+    align-items: center;
+    margin: auto auto;
+    bleed: bold;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.Ocontainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    color: yellow;
+    justify-content: center;
+    text-align: justify;
+    /* border: 2px solid maroon; */
+    border-radius: 10px;
+    width: 99%;
+    /* width: 80ch; */
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+#site15{
+     display: grid;
+    /*grid-template-columns: repeat(2, auto); */
+
+    color: yellow;
+    justify-content: center;
+    text-align: justify;
+    /* border: 2px solid maroon; */
+    border-radius: 2vw;
+    width: auto;
+    /* width: 80ch; */
+    align-items: center;
+    /* align-self: auto; */
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    padding: 10px;
+    grid-template-columns:repeat(1, auto) ;
+}
+#site18{
+     display: grid;
+    /*grid-template-columns: repeat(2, auto); */
+
+    color: yellow;
+    justify-content: center;
+    text-align: justify;
+    /* border: 2px solid maroon; */
+    border-radius: 2vw;
+    width: auto;
+    /* width: 80ch; */
+    align-items: center;
+    /* align-self: auto; */
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    padding: 10px;
+    grid-template-columns:repeat(1, auto) ;
+}
+    #site15 .shead{
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #site15 .obtn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #site18 .shead{
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #site18 .obtn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/* .Ocontainer {
+    display: flex;
+    flex-direction: column;
+     
+    text-align: center;
+} */
+
+.Osites {
+    height: 500px;
+    width: 95%;
+    /* display: block; */ 
+    text-align: center;
+    justify-items: normal;
+    flex-direction: row;
+    border: 2px solid maroon;
+    margin: 5px;
+    /* background-color: sandybrown; */
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Ah1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.shead {
+    font-size: 35px;
+    /* color:blue; */
+    align-self: center;
+    justify-content: center;
+}
+
+.psite {
+    margin-top: 25px;
+    color: rgb(8, 2, 2);
+}
+
+#Abtn {
+    padding: 10px;
+    background-color: maroon;
+    border: 2px solid black;
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5ch;
+}
+
+.Obtn {
+    /* position: relative; */
+    margin-bottom: 20px;
+}
+.obtn{
+    margin-top: auto;
+}
+
+.btnb{
+    align-self: center;
+}
+#site18f p{
+font-style: none;
+}
+
+/* -----------------------style for contact---------------------- */
+
+.Ccontainer {
+    display: flex;
+    /* grid-template-columns: repeat(2, auto); */
+    flex-direction: row;
+    /* color: yellow; */
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 90%;
+    color: blue;
+    align-items: center;
+    margin: auto auto;
+}
+
+.Ccontainer0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 90%;
+    color: aliceblue;
+    margin: auto auto;
+}
+
+.Cbox {
+    /* border: 2px solid rgb(224, 19, 19); */
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    text-align: justify;
+    height: 300px;
+    width: 400px;
+    /* margin: 100px; */
+}
+
+.Cbox0 {
+    /* border: 2px solid rgb(224, 19, 19); */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    text-align: justify;
+    height: 250px;
+    width: 700px;
+    /* margin-left: 400px; */
+    align-self: center;
+}
+
+.Cphoto0 {
+    /* border: 2px solid black ; */
+    height: 75px;
+    width: 75px;
+    margin: auto;
+    border-radius: 35px;
+}
+
+.Cphoto {
+    /* border: 2px solid black ; */
+    height: 75px;
+    width: 75px;
+    margin-top: 5px;
+    margin: auto;
+    border-radius: 35px;
+}
+
+.Cphoto0 img {
+    /* border-radius: 25px; */
+    height: 75px;
+    width: 75px;
+}
+
+.Cphoto img {
+    /* border-radius: 25px; */
+    height: 75px;
+    width: 75px;
+}
+
+#Ctext0 {
+    border: 2px solid maroon;
+    height: 200px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.Ctext {
+    border: 2px solid maroon;
+    height: 200px;
+    border-radius: 10px;
+    margin: 5px 5px 5px;
+    padding: 20px;
+}
+
+
+/* -----------------------style for deities-------------------- */
+
+.Dcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    /* color: yellow; */
+    color: brown;
+    justify-content: center;
+    text-align: center;
+    margin:auto auto;
+}
+
+.Dcontainer1 {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    /* color: yellow; */
+    color: brown;
+    justify-content: center;
+    text-align: center;
+}
+
+.Dcontainer2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    color: blue;
+}
+
+.Dbox {
+    border: 2px solid rgb(224, 19, 19);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    color: blue;
+}
+
+#Dpara3 {
+    color: yellow;
+    color: blue;
+}
+#Dpara4 {
+    color: yellow;
+    color: blue;
+}
+#Dpara5 {
+    color: yellow;
+    color: blue;
+}
+
+
+/* ------------------------------------style for gallery---------------------------- */
+
+/* @media screen 
+and (min-width : 300px)
+and (max-width : 600px)
+
+{
+    .gallery img{
+    width: 45vw;
+    height: 25vh;
+    /*padding: 1vw ;
+    filter:grayscale(100%);
+    transition:1s;
+    border-radius: 10px;
+    margin-left: 2vw;
+    }
+    
+    .gallery img:hover
+    {
+    filter: grayscale(0);
+    transform:scale(1.1);
+    }
+}  */
+
+.gallery {
+    margin: 10px 50px;
+    /* display:flex; */
+    
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+ #gal1{
+    height: 95vh;
+    width: 90vw;
+    /* border: solid 2px green;//////// */
+    /* display:flex; */
+    margin-bottom: 4vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+#gal2{
+    height: 95vh;
+    width: 90vw;
+    /* border: solid 2px yellow; */
+    /* display:fl; */
+    margin-top: 4vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+#gal3{
+    height: 95vh;
+    width: 90vw;
+    /* border: solid 2px yellow; */
+    /* display:fl; */
+    margin-top: 2vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+/*--------------------------------------------media query------------------------------------*/
+
+@media screen 
+and (min-width : 300px)
+and (max-width : 600px)
+
+{
+    .gallery{
+        margin: auto auto;
+        padding: auto auto;
+    }
+    
+    .gallery img{
+    width: 25vw;
+    height: 20vh;
+    /*padding: 1vw ;*/
+    filter:grayscale(100%);
+    transition:1s; 
+    border-radius: 10px;
+    margin: auto auto;
+    }
+    .gallery img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1);
+    }
+    .Ocontainer {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    /* display:flex;
+    flex-direction: column; */
+    color: yellow;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 90vw;
+    height:auto;
+    align-items: center;
+    align-self: center;
+    margin: auto auto;
+    padding: 1vw;
+    /* border: 2px solid maroon; */
+    }
+    #scont{
+        /* border: 2px solid maroon; */
+        border-radius: 15px;
+        margin: auto auto;
+    }
+    .Osites{
+        border-radius: 15px;
+        font-weight: 600;
+    }
+    .obtn{
+        margin-top: auto;
+    }
+
+    .full {
+        width: 85vw;
+        text-align:justify;
+        align-items: center;
+        margin: auto auto;
+        bleed: bold;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .full h3{
+        align-self: center;
+    }
+
+    .btnb{
+        align-self: center;
+    }
+    
+
+} 
+/* @media screen 
+and (min-width :600px)
+/* and (max-width : 1240px) 
+{
+.gallery img{
+    /* --i: vw;
+    --iw: calc(i/2);
+    width: var(--iw);
+     height: 45vh; */
+    /* width: 250px; 
+    height: 250px;
+    /*padding: 5px;
+    filter:grayscale(100%);
+    transition:1s;
+    border-radius: 10px;
+    margin-left: 1vw;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1);
+}
+#ganesha {
+    float: left;
+    border-radius: 10px;
+    width: 10vw;
+    height: 15vh;
+    filter: invert(1);
+}
+
+#skn { 
+    margin-right: 0px;*/
+    /* margin-left: 800px; */
+    /*border-radius: 10px;
+    width: 10vw;
+    height: 15vh;
+    float: right;
+}
+    #more {
+        margin-top: auto;
+    }
+    /* body{
+        
+        height: 100vh;
+    } 
+} */
+
+/* ----------------------------------------style for note---------------------------------- */
+/* .notifications{
+    height:70vh;
+} */
