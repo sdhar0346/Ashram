@@ -219,6 +219,9 @@ h1 {
     display: block;
     align-self: auto;
 }
+#ghm{
+    display:none
+}
 
 .block {
     height: 70vh;
@@ -987,6 +990,11 @@ and (max-width : 600px)
     display: block;
     align-self: auto;
 }
+    #ghc{
+        display:none
+    }
+    #intro{
+        width:90vw;
     
      #mini{
         width: 95vw;
