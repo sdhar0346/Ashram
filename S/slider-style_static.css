@@ -969,6 +969,10 @@ and (max-width : 600px)
     }
     .biob{
         width:80vw;
+    }
+    #mini{
+        width: 95vw;
+    }
     .gallery img {
         width: 25vw;
         height: 20vh;
