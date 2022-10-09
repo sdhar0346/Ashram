@@ -387,7 +387,7 @@ h1 {
 
 .biob {
     /* width: 80ch; */
-    width: 45vw;
+    width: 45w
     /* height:500px; */
     /* text-align: center;
     align-items: center; */
@@ -967,6 +967,8 @@ and (max-width : 600px)
         margin: auto auto;
         padding: auto auto;
     }
+    .biob{
+        width:80vw;
     .gallery img {
         width: 25vw;
         height: 20vh;
