@@ -407,8 +407,8 @@ h1 {
 .bios {
     /* width: 80ch; */
     padding-top: 50px;
-    width: 45vw;
-    height: 250px;
+    width: 40vw;
+    height: auto;
     /* text-align: center;
   align-items: center; */
     display: grid;
@@ -970,6 +970,25 @@ and (max-width : 600px)
         margin: auto auto;
         padding: auto auto;
     }
+    .buttoni {
+        width: 25vw;
+        padding: 15px 0;
+        text-align: center;
+        margin: auto auto;
+        /* margin-top: 7px; */
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid goldenrod;
+        background-color: gold;
+        color: blue;
+        cursor: pointer;
+        transition: background 1s;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .bios{
+        width:38vw;
+    }
     .biob{
         width:70vw;
     }
@@ -997,7 +1016,7 @@ and (max-width : 600px)
         width:90vw;
     
      #mini{
-        width: 95vw;
+        width: 85vw;
         margin: auto auto;
     } 
     
