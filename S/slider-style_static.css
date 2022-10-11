@@ -977,7 +977,7 @@ and (max-width : 600px)
         width: 25vw;
         padding: 15px 0;
         text-align: center;
-        margin: auto auto;
+        /* margin: auto auto; */
         /* margin-top: 7px; */
         border-radius: 25px;
         font-weight: bold;
