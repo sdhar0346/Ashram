@@ -990,11 +990,11 @@ and (max-width : 600px)
         font-size: 15px;
     }
     .bios{
-        width:38vw;
-        margin
+        width: 70vw;
+        margin: auto auto;
     }
     .biob{
-        width:70vw;
+        width: 70vw;
     }
     .gayatri h3 {
     align-items: center;
