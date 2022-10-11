@@ -970,6 +970,9 @@ and (max-width : 600px)
         margin: auto auto;
         padding: auto auto;
     }
+    #morebody{
+        width:90vw;
+    }
     .buttoni {
         width: 25vw;
         padding: 15px 0;
